@@ -99,7 +99,7 @@ const uiConfig = {
     "downloaddomain": domain_for_dl, // Ignore this and set domains at top of this page after service accounts.
     "poster": "", // Video poster URL or see Readme to how to load from Drive
     "audioposter": "", // Video poster URL or see Readme to how to load from Drive
-    "jsdelivr_cdn_src": "", // If Project is Forked, then enter your GitHub repo
+    "jsdelivr_cdn_src": "https://www.jsdelivr.com/gh/Th4Park/th4-hindi-480-1", // If Project is Forked, then enter your GitHub repo
     "render_head_md": true, // Render Head.md
     "render_readme_md": true, // Render Readme.md
     "display_drive_link": false, // This will add a Link Button to Google Drive of that particular file.
