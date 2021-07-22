@@ -10,7 +10,7 @@ const redirectURI = 'urn:ietf:wg:oauth:2.0:oob';
 const jsURL = 'https://raw.githubusercontent.com/Th4Park/Ghoul-db-private/master/worker/worker-beta.js';
 
 async function handleRequest(request) {
-    let title = getParameterByName(request.url, 'site_name') || 'Bhadoo Drive Index';
+    let title = getParameterByName(request.url, 'site_name') || 'Ghoul Index';
     let auth_code = getParameterByName(request.url, 'auth_code');
     let root = getParameterByName(request.url, 'root') || 'root';
     let user = getParameterByName(request.url, 'user') || '';
@@ -284,7 +284,7 @@ async function handleRequest(request) {
 <body">
 <div class="container">
     <br><br>
-    <a href="https://www.npmjs.com/package/@googledrive/index"><h3>Bhadoo Index Generator - Beta</h3></a>
+    <a href="https://www.npmjs.com/"><h3>Ghoul Index Generator</h3></a>
     <br>
         <div>
             <h3>1. <a
@@ -319,7 +319,7 @@ async function handleRequest(request) {
     <div class="overflow-auto" style="background-color:#000;">
         <pre class="snippet"><code class="html js">${codeJS}</code></pre>
     </div>
-    <center><p>© <span id="year"></span> - Bhadoo Cloud Cyber Systems</p></center>
+    <center><p>© <span id="year"></span> - Ghoul Cloud </p></center>
 </div>
 
 <script>
